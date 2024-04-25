@@ -1,0 +1,170 @@
+.container {
+  max-width: 1400px;
+  margin: auto;
+  /* border: 1px solid; */
+  /* height: 100vh; */
+  background-color: rgb(235, 240, 244);
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px;
+  gap: 30px;
+}
+
+.todo-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.left form {
+  display: flex;
+  gap: 20px;
+}
+
+form input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(6, 154, 239);
+  padding: 10px;
+}
+
+form input:focus,
+form input:focus-visible {
+  border: 2px solid rgb(6, 154, 239) !important;
+  outline: none;
+}
+
+form button {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: rgb(6, 154, 239);
+  color: #fff;
+}
+
+form button:hover {
+  background-color: rgb(0, 162, 255);
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 1px solid rgb(14, 33, 244);
+  padding: 5px 10px;
+  text-align: center;
+  background-color: rgb(207, 231, 252);
+  border-radius: 5px;
+}
+
+.item-right {
+  display: flex;
+  gap: 15px;
+}
+
+.item-right button {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 15px;
+  cursor: pointer;
+
+  color: #fff;
+}
+
+.view-btn {
+  background-color: rgb(2, 93, 240);
+}
+
+.view-btn:hover {
+  background-color: rgb(0, 72, 189);
+}
+
+.delete-btn {
+  background-color: rgb(255, 0, 64);
+}
+
+.delete-btn:hover {
+  background-color: rgb(120, 16, 42);
+}
+
+.btn {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(6, 160, 111);
+}
+
+.error {
+  color: red;
+}
+
+/* Detail Page Starts */
+
+.detail-container {
+  text-align: center;
+  height: 100vh;
+}
+
+.detail-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-top: ; */
+  max-width: 500px;
+  gap: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding: 8px;
+}
+
+input[type="text"] {
+  width: calc(100% - 16px); /* Adjust padding */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: fit-content;
+  margin: auto;
+  margin-top: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* background-color: #f9f9f9; */
+}
+
+.update-btn{
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: rgb(6, 160, 111);
+    color: #fff;
+    width: 100%;
+}
+
+/* Detals Page End */
